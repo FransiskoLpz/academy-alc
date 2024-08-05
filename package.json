@@ -2,6 +2,7 @@
   "name": "academy-alc",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://FransiskoLpz.github.io/academy-alc/build",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -9,6 +10,7 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
+    "react-scroll": "^1.9.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

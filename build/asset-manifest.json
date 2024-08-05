@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.21f874ce.css",
+    "main.js": "/static/js/main.33af555c.js",
+    "static/js/453.99866ac2.chunk.js": "/static/js/453.99866ac2.chunk.js",
+    "static/media/LogoALC.png": "/static/media/LogoALC.ea389dcdd9817abc69ca.png",
+    "static/media/academy2.jpg": "/static/media/academy2.be98ca08a12fda8e1993.jpg",
+    "static/media/academy3.jpg": "/static/media/academy3.2d05ca5425906f2af9e8.jpg",
+    "static/media/academy1.jpg": "/static/media/academy1.84f5b3c6081102f58044.jpg",
+    "static/media/LogoALChome.png": "/static/media/LogoALChome.417638c992c440a8a412.png",
+    "static/media/fondo.png": "/static/media/fondo.ddd00b69504ec885f96b.png",
+    "index.html": "/index.html",
+    "main.21f874ce.css.map": "/static/css/main.21f874ce.css.map",
+    "main.33af555c.js.map": "/static/js/main.33af555c.js.map",
+    "453.99866ac2.chunk.js.map": "/static/js/453.99866ac2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.21f874ce.css",
+    "static/js/main.33af555c.js"
+  ]
+}
