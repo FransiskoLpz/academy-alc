@@ -28,7 +28,7 @@ function Header() {
           <ambientLight intensity={0.5} />
           <directionalLight position={[3, 3, 3]} />
           <PerspectiveCamera makeDefault position={[0, 0, 35]} fov={75} />
-          <Model url="/untitled.glb" />
+          <Model url="./models/untitled.glb" />
           <OrbitControls enableZoom={false} />
         </Canvas>
       </div>

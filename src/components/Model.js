@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { Canvas, useFrame } from "@react-three/fiber";
-import { OrbitControls, PerspectiveCamera, useGLTF } from "@react-three/drei";
+import { useFrame } from "@react-three/fiber";
+import { useGLTF } from "@react-three/drei";
 import GradientMaterial from "./GradientMaterial"; // Importa el nuevo material
 
 function Model({ url }) {
