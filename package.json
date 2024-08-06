@@ -2,6 +2,7 @@
   "name": "academy-alc",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://FransiskoLpz.github.io/academy-alc/build",
   "dependencies": {
     "@react-three/drei": "^9.109.2",
     "@react-three/fiber": "^8.16.8",
