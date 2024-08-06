@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import About from "./components/About";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 let previousTitle = document.title;
 window.addEventListener("blur", () => {
@@ -21,6 +22,7 @@ function App() {
       <Header />
       <About />
       <Contact />
+      <Footer />
     </div>
   );
 }
