@@ -4,6 +4,7 @@ import { Link } from "react-scroll";
 
 function Navbar() {
   const [nav, setnav] = useState(false);
+
   const changeBackground = () => {
     if (window.scrollY >= 50) {
       setnav(true);
@@ -11,15 +12,22 @@ function Navbar() {
       setnav(false);
     }
   };
-  window.addEventListener("scroll", changeBackground);
+
+  // Añadir el listener de scroll cuando el componente se monta
+  React.useEffect(() => {
+    window.addEventListener("scroll", changeBackground);
+
+    // Limpiar el listener de scroll cuando el componente se desmonta
+    return () => window.removeEventListener("scroll", changeBackground);
+  }, []);
 
   return (
     <nav className={nav ? "nav active" : "nav"}>
       <Link to="main" className="logo" smooth={true} duration={2000}>
-        <img src={logo} alt="" />
+        <img src={logo} alt="Logo" />
       </Link>
       <input className="menu-btn" type="checkbox" id="menu-btn" />
-      <label for="menu-btn" className="menu-icon">
+      <label htmlFor="menu-btn" className="menu-icon">
         <span className="nav-icon"></span>
       </label>
       <ul className="menu">
